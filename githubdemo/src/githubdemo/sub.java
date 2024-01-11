@@ -6,12 +6,12 @@ public class sub {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		int a,b,sub;
+		int x,b,sub;
 		System.out.println("Enter two numbers");
 		Scanner scan=new Scanner(System.in);
-		a=scan.nextInt();
+		x=scan.nextInt();
 		b=scan.nextInt();
-		sub=a-b;
+		sub=x-b;
 		System.out.println("The sum is : "+sub);
 
 	}
